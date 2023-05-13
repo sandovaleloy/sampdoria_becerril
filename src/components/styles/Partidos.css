@@ -1,0 +1,25 @@
+.partidos {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.partidos_div {
+    margin: 0 auto;
+    min-width: 325px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.partidos_h4 { 
+    font-size: 18px;
+    box-shadow: 5px 5px 10px rgb(14, 11, 36);
+    width: 150px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    margin: 0 auto;
+}
