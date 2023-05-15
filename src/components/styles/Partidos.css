@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.partidos_div {
+/* .partidos_div {
     margin: 0 auto;
     min-width: 325px;
     width: 90%;
@@ -22,4 +22,66 @@
     display: flex;
     border-radius: 20px;
     margin: 0 auto;
+} */
+
+.con {
+    margin: 0 auto;
+    height: auto;
+    min-width: 310px;
+    width: 70%;
+    background-color: #263649;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 3px;
 }
+
+.aaa {
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    border: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sss {
+    justify-content: space-between;
+    display: flex;
+    width: 250px;
+    font-size: 18px;
+}
+
+.fe {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+.fe1 {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.equ {
+    color: white;
+    justify-content: space-between;
+    display: grid;
+    margin: 0 auto;
+    width: 90%;
+    padding: 5px;
+}
+
+.ganado:hover {
+    color: green;
+    transition: all .5s ease;
+}
+.perdidos:hover {
+    color: rgb(128, 41, 0);
+    transition: all .5s ease;
+}
+.empatados:hover {
+    color:yellow;
+    transition: all .5s ease;
+}
+
