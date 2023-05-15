@@ -11,11 +11,12 @@ const Main = () => {
         <div className="main_div2">
           <h3>Torneo Primera C</h3>
           <p className="parra">
-            Dicho torneo en el que la sampdoria de becerril esta debutando, tendra que enfrentarse en un todo contra todos con los equipos 
-            de su grupo
+            Dicho torneo en el que la sampdoria de becerril esta debutando,
+            tendra que enfrentarse en un todo contra todos con los equipos de su
+            grupo
           </p>
         </div>
-        <div className="main_fondo"></div>
+          <div className="main_fondo"></div>
         <p className="p"></p>
       </section>
 
