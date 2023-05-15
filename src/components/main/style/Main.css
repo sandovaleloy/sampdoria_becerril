@@ -49,7 +49,7 @@
   
   .main_fondo {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQlx4bYhbjmPvKJg4mJ4Q-vIMsaYuumQmxv7bO6eBCD0-wy08BpRlwh5JvW7rV6VuC8dRe-hA65GvzM2E82ZQPQyLhzQAa8VIiOZndg3nFmdY75yQCpL5GvLF8oSAZEoa2Vr29EMyJ1W_ER5IluifX89P4hkhGJRtMcnlwUUgvIoME76V1hsVRFq2FSA/s415/sampdoriaLogojpg.jpg");
     min-height: 230px;
   }
