@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Jugadores from "./components/Jugadores";
-import Navbar from "./components/Navbar";
-import Partidos from "./components/Partidos";
+import Jugadores from "./components/jugadores/Jugadores";
+import Navbar from "./components/layout/Navbar";
+import Partidos from "./components/partidos/Partidos";
 import Main from "./components/main/Main";
+import PaginaPrincipal from "./components/tabla/PaginaPrincipal";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path="/jugadores" element={<Jugadores />} />
         <Route path="/partidos" element={<Partidos />} />
+        <Route path="/tabla" element={<PaginaPrincipal />} />
       </Routes>
-      
+      <Footer />
     </div>
   );
 }

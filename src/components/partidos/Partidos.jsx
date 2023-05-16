@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles/Partidos.css";
+import ProximaFecha from "./ProximaFecha/ProximaFecha";
 
 const Partidos = () => {
   return (
     <article className="partidos">
 
+      <ProximaFecha/>
+      
       <div className="con">
         <div className="aaa">
           <h5 className="fe">Fecha 3</h5>
@@ -15,12 +18,12 @@ const Partidos = () => {
         <div className="equ">
           
           <div className="sss">
-            <h5 className="ganado">napoles</h5>
+            <h5 className="ganado">Napoles</h5>
             <h5 className="ganado">4</h5>
           </div>
           
           <div className="sss">
-            <h5 className="perdidos">sampdoria de becerril</h5>
+            <h5 className="perdidos">Sampdoria Becerril</h5>
             <h5>1</h5>
           </div>
   
@@ -29,19 +32,19 @@ const Partidos = () => {
 
         <div className="aaa">
           <h5 className="fe">Fecha 2</h5>
-          <h5 className="fe1">--/--/----</h5>
+          {/* <h5 className="fe1">--/--/----</h5> */}
         </div>
         {/* <hr className="hr" /> */}
 
         <div className="equ">
           
           <div className="sss">
-            <h5 className="empatados">sampdoria de becerril</h5>
+            <h5 className="empatados">Sampdoria Becerril</h5>
             <h5>0</h5>
           </div>
           
           <div className="sss">
-            <h5 className="empatados">FC internacional</h5>
+            <h5 className="empatados">FC Internacional</h5>
             <h5>0</h5>
           </div>
   
@@ -50,19 +53,19 @@ const Partidos = () => {
         {/* <hr className="hr" /> */}
         <div className="aaa">
           <h5 className="fe">Fecha 1</h5>
-          <h5 className="fe1">--/--/----</h5>
+          {/* <h5 className="fe1">--/--/----</h5> */}
         </div>
         {/* <hr className="hr" /> */}
 
         <div className="equ">
           
           <div className="sss">
-            <h5 className="perdidos">los embajadores del banco</h5>
+            <h5 className="perdidos">Los Embajadores Del Banco</h5>
             <h5>0</h5>
           </div>
           
           <div className="sss">
-            <h5 className="ganado">sampdoria de becerril</h5>
+            <h5 className="ganado">Sampdoria Becerril</h5>
             <h5 className="ganado">1</h5>
           </div>
   

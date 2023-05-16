@@ -43,6 +43,11 @@ const Navbar = () => {
             <i className='arrow bx bx-chevron-right' ></i>
           </Link>
 
+          <Link onClick={close} className={`navbar_link ${men ? 'active' : ''}`} to="/tabla">
+            <h3>Tabla</h3>
+            <i className='arrow bx bx-chevron-right' ></i>
+          </Link>
+
           <div onClick={close} className='cerrar'> 
             <i className='bx bx-x'></i>
           </div>

@@ -28,7 +28,7 @@
 
 .iiii:hover {
   transition: 1.4s ease all;
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .main_div2 {
@@ -96,10 +96,6 @@
   height: auto;
   width: 100%;
 }
-
-/* .aside_img1:hover {
-    font-size: 20px;
-} */
 
 .p {
   color: white;
