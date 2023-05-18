@@ -1,4 +1,4 @@
-.ju {
+.container_players {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,12 +7,28 @@
     width: 99%;
 }
 
-.image_jugadores {
+.image_players {
     height: 80%;
     width: 50%;
 }
 
-.porteros {
+.image_players-staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.number_h5 {
+    font-size: 15px;
+}
+
+.container_goalkeepers {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,7 +39,7 @@
     margin: 20px 0;
 }
 
-.playingPortero {
+.goalkeepers {
     box-shadow: 5px 5px 10px #be9e0d;
     padding: 5px;
     border-radius: 5px;
@@ -33,7 +49,19 @@
     margin: 0 auto;
 }
 
-.playingDefensas {
+.container_defenses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.players_defenses {
     box-shadow: 5px 5px 10px #46964a;
     padding: 5px;
     border-radius: 5px;
@@ -43,7 +71,19 @@
     margin: 0 auto;
 }
 
-.playingVolantes {
+.container_frills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.players_frills {
     box-shadow: 5px 5px 10px #1e11d1;
     padding: 5px;
     border-radius: 5px;
@@ -63,19 +103,7 @@
     margin: 0 auto;
 }
 
-.image_jugadoresG {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 60%;
-    height: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-
-.defensa {
+.container_attackers {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -85,32 +113,4 @@
     gap: 10px;
     font-size: 30px;
     margin: 20px 0;
-}
-
-.volantes {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 10px;
-    font-size: 30px;
-    margin: 20px 0;
-}
-
-.delanteros {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 10px;
-    font-size: 30px;
-    margin: 20px 0;
-}
-
-.h5 {
-    font-size: 15px;
 }

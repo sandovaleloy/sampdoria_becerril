@@ -14,19 +14,19 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav">
+    <div className="container_navbar">
 
-      <div className="nav_div">
+      <div className="image_div-nav">
         <img src="./image/sampdoriaLogojpg.jpg" alt="" />
       </div>
 
-      <div className="nav_icon">
+      <div className="navbar_section">
 
-        <button onClick={toggleMenu} className={ `menuH ${ men ? 'active' : ''}`}>
+        <button onClick={toggleMenu} className={ `menu ${ men ? 'active' : ''}`}>
           <i className=" bx bx-menu"></i>
         </button>
 
-        <div className={`nav_link ${ men ? 'active' : ''}`}>
+        <div className={`container_navbar-link ${ men ? 'active' : ''}`}>
 
           <Link onClick={close} className={`navbar_link ${men ? 'active' : ''}`} to="/">
             <h3>Inicio</h3>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <i className='arrow bx bx-chevron-right' ></i>
           </Link>
 
-          <div onClick={close} className='cerrar'> 
+          <div onClick={close} className='close'> 
             <i className='bx bx-x'></i>
           </div>
         </div>
