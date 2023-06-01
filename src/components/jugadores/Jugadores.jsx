@@ -137,29 +137,29 @@ const Jugadores = () => {
 
       <h2>Delanteros</h2>
       <section className="container_attackers">
-        <div className="players_attackers">
+        <div className="players_frills">
         <div className="image_players-staff">
             <img src={urlImg} alt="" />
           </div>
           <h5 className="number_h5">JAIRO ANDRES CADENA CAMACHO</h5>
           <h5># 9</h5>
         </div>
-        <div className="players_attackers">
+        <div className="players_frills">
         <div className="image_players-staff">
             <img src={urlImg} alt="" />
           </div>
           <h5 className="number_h5">JESUS DAVID ORTIZ GONZALEZ</h5>
           <h5># 4</h5>
         </div>
-        <div className="players_attackers">
-        <div className="image_players-staff">
+        <div className="players_frills">
+          <div className="image_players-staff">
             <img src={urlImg} alt="" />
           </div>
           <h5 className="number_h5">WILGEN GUERRERO RESTREPO</h5>
           <h5># 14</h5>
         </div>
-        <div className="players_attackers">
-                    <div className="image_players-staff">
+        <div className="players_frills">
+          <div className="image_players-staff">
             <img src={urlImg} alt="" />
           </div>
           <h5 className="number_h5">ENEGREDIN RIVERA CENTENO</h5>

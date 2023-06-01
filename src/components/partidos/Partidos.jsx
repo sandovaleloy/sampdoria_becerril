@@ -9,6 +9,47 @@ const Partidos = () => {
       <ProximaFecha/>
       
       <div className="con">
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 5</h5>
+          <h5 className="fe1">05/27/2023</h5>
+        </div>
+        {/* <hr className="hr" /> */}
+
+        <div className="equ">
+          
+          <div className="sss">
+            <h5 className="ganado">Equipo Azul</h5>
+            <h5 className="ganado">4</h5>
+          </div>
+          
+          <div className="sss">
+            <h5 className="perdidos">Sampdoria Becerril</h5>
+            <h5>1</h5>
+          </div>
+  
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 4</h5>
+          <h5 className="fe1">05/20/2023</h5>
+        </div>
+        {/* <hr className="hr" /> */}
+
+        <div className="equ">
+          
+          <div className="sss">
+            <h5 className="ganado">Sampdoria Becerril</h5>
+            <h5 className="ganado">2</h5>
+          </div>
+          
+          <div className="sss">
+            <h5 className="perdidos">San Francisco</h5>
+            <h5>0</h5>
+          </div>
+  
+        </div>
+
         <div className="aaa">
           <h5 className="fe">Fecha 3</h5>
           <h5 className="fe1">05/13/2023</h5>

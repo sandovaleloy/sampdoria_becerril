@@ -1,5 +1,5 @@
 .main {
-  padding-top: 0px;
+  margin-top: 20px;
   width: 100%;
   justify-content: center;
   display: grid;
@@ -19,8 +19,20 @@
   overflow: hidden;
 }
 
-.iiii {
+.iiii1 {
   width: 70%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.iiii1:hover {
+  transition: 1.4s ease all;
+  transform: scale(1.1);
+}
+
+.iiii {
+  width: 100%;
   height: 100%;
   transition: 0.5s;
   object-fit: cover;
@@ -45,9 +57,9 @@
     background-attachment: fixed;
     min-height: 100vh;
     background-repeat: no-repeat;
-  }
+}
   
-  .main_fondo {
+.main_fondo {
     margin: 0 auto;
     width: 100%;
     background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQlx4bYhbjmPvKJg4mJ4Q-vIMsaYuumQmxv7bO6eBCD0-wy08BpRlwh5JvW7rV6VuC8dRe-hA65GvzM2E82ZQPQyLhzQAa8VIiOZndg3nFmdY75yQCpL5GvLF8oSAZEoa2Vr29EMyJ1W_ER5IluifX89P4hkhGJRtMcnlwUUgvIoME76V1hsVRFq2FSA/s415/sampdoriaLogojpg.jpg");
@@ -82,19 +94,22 @@
   flex-wrap: wrap;
   height: auto;
   width: 50%;
-  /* gap: -25px; */
   justify-content: center;
-  /* padding: 5px; */
   box-shadow: 0px 1px 100px rbga(0, 0, 0, 0.2);
   background-color: rgb(26, 23, 23);
   border-radius: 10px;
+
+  
 }
 
 .aside_img1 {
   overflow: hidden;
   /* border: 1px solid red; */
-  height: auto;
-  width: 100%;
+  /* height: auto; */
+  /* width: 100%; */
+width: 100%;
+height: 100%;
+overflow: hidden;
 }
 
 .p {

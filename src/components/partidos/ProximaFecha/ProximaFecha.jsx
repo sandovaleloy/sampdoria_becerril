@@ -6,9 +6,9 @@ const ProximaFecha = () => {
     <article className='container_proximaFecha'>
 
         <div className="container_nav">
-          <h5 className="h5_fecha">Proximo partido | Fecha 4 </h5>
+          <h5 className="h5_fecha">Proximo partido | Fecha 6 </h5>
           {/* <h5>hora</h5> */}
-          <h5 className="fecha">20/05/2023</h5>
+          <h5 className="fecha">03/06/2023</h5>
         </div>
 
         <div className="container_body">
@@ -21,7 +21,7 @@ const ProximaFecha = () => {
             <h5 className='ss'>V</h5>
           </div>
           <div className="container_equipo1">
-            <h5 className="ss">San Francisco</h5>
+            <h5 className="ss">Form. San Francisco La Paz</h5>
             {/* <h5>1</h5> */}
           </div>
   
