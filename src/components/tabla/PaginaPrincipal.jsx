@@ -21,11 +21,22 @@ const PaginaPrincipal = () => {
           <h6>Equipo Azul</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>15</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>18</h6>
+          <h6>6</h6>
         </div>
       </div>
       {/* // 2 */}
+      <div className='container_div'>
+      <div className='container_div1'>
+          <h6 className='h6_pos'>2</h6>
+          <h6>Napoles</h6>
+        </div>
+        <div className='container_div1'>
+          <h6 className='h6_pos'>15</h6>
+          <h6>6</h6>
+        </div>
+      </div>
+      {/* // 3 */}
       <div className='container_div'>
       <div className='container_div1'>
           <h6 className='h6_pos'>2</h6>
@@ -33,29 +44,18 @@ const PaginaPrincipal = () => {
         </div>
         <div className='container_div1'>
           <h6 className='h6_pos'>13</h6>
-          <h6>5</h6>
-        </div>
-      </div>
-      {/* // 3 */}
-      <div className='container_div'>
-      <div className='container_div1'>
-          <h6 className='h6_pos'>3</h6>
-          <h6>Napoles</h6>
-        </div>
-        <div className='container_div1'>
-          <h6 className='h6_pos'>12</h6>
-          <h6>5</h6>
+          <h6>6</h6>
         </div>
       </div>
       {/* // 4 */}
       <div className='container_div'>
       <div className='container_div1'>
           <h6 className='h6_pos'>4</h6>
-          <h6>San Francisco</h6>
+          <h6> DEPORTIVO J.M.</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>7</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>11</h6>
+          <h6>7</h6>
         </div>
       </div>
       {/* // 5 */}
@@ -65,19 +65,19 @@ const PaginaPrincipal = () => {
           <h6>Form. San Francisco La Paz</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>7</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>10</h6>
+          <h6>6</h6>
         </div>
       </div>
       {/* // 6 */}
       <div className='container_div'>
       <div className='container_div1'>
-          <h6 className='h6_pos'>6</h6>
-          <h6>Sampdoria Becerril</h6>
+          <h6 className='h6_pos'>4</h6>
+          <h6>San Francisco</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>7</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>10</h6>
+          <h6>7</h6>
         </div>
       </div>
       {/* // 7 */}
@@ -87,19 +87,19 @@ const PaginaPrincipal = () => {
           <h6>Sultanes F G.</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>6</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>9</h6>
+          <h6>6</h6>
         </div>
       </div>
       {/* // 8 */}
       <div className='container_div'>
       <div className='container_div1'>
-          <h6 className='h6_pos'>8</h6>
-          <h6> DEPORTIVO J.M.</h6>
+          <h6 className='h6_pos'>6</h6>
+          <h6>Sampdoria Becerril</h6>
         </div>
         <div className='container_div1'>
-          <h6 className='h6_pos'>5</h6>
-          <h6>5</h6>
+          <h6 className='h6_pos'>7</h6>
+          <h6>6</h6>
         </div>
       </div>
       {/* // 9 */}
@@ -110,7 +110,7 @@ const PaginaPrincipal = () => {
         </div>
         <div className='container_div1'>
           <h6 className='h6_pos'>0</h6>
-          <h6>5</h6>
+          <h6>7</h6>
         </div>
       </div>
       {/* 10 */}
@@ -121,7 +121,7 @@ const PaginaPrincipal = () => {
         </div>
         <div className='container_div1'>
           <h6 className='h6_pos'>0</h6>
-          <h6>5</h6>
+          <h6>7</h6>
         </div>
       </div>
     </section>

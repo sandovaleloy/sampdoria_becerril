@@ -5,6 +5,16 @@
   display: grid;
 }
 
+.div_life {
+  font-size: 35px;
+}
+
+.div_life a {
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+}
+
 .main_section {
   justify-content: center;
   display: grid;

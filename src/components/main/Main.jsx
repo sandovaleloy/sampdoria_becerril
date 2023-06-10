@@ -5,8 +5,13 @@ const Main = () => {
   return (
     <main className="main">
       <section className="main_section">
+        {/* <div className="div_life">
+          <i className='bx bxs-camera-movie'></i>
+          <a href="" target="_blank">partido en vivo aqui</a>
+        </div> */}
         <div className="main_div1">
-          <img className="iiii1" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrYgx22Mwhwnk6Sv1ntQH_1AzP-iNAzwwOCvVnvDGQmxKpm2n2CkGL2ejaHvE0Mk96YApQAHnMVtGNBFGvBxQDxlmiqaZHNxGMm5MuchNV4ql8B_t80cz62GiZniL-AVaua-fGmTV5_eMbjaY-IslH5itRWHhfe-B4MQm9t_G8Bf_gAPTpnsBnKSQ1gg/s1024/sampdoria.jpeg" alt="" />
+          <img className="iiii1" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjreKh5zW4KKeOHFO7ONDwXvScMPj7NdV4MTExVqFn_P4Zs_WCeCTNPLRLO1JwIZAE145sCoG-SLlAzcjGr5YJHniyXsAql9I6w2HBba4Ur7B7Z_0p_Oa2q-abdox5pA_UVdGzzoi9lSPrj6hB6cwhDl_AJnGqrZmu0Rd32hA12VaGKAJWRKHWjprYvPw/s2048/fecha%207.jpg" alt="" />
+          {/* <img className="iiii1" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrYgx22Mwhwnk6Sv1ntQH_1AzP-iNAzwwOCvVnvDGQmxKpm2n2CkGL2ejaHvE0Mk96YApQAHnMVtGNBFGvBxQDxlmiqaZHNxGMm5MuchNV4ql8B_t80cz62GiZniL-AVaua-fGmTV5_eMbjaY-IslH5itRWHhfe-B4MQm9t_G8Bf_gAPTpnsBnKSQ1gg/s1024/sampdoria.jpeg" alt="" /> */}
         </div>
         <div className="main_div2">
           <h3>Torneo Primera C</h3>
