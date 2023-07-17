@@ -9,10 +9,110 @@ const Partidos = () => {
 
       <div className="con">
         <div className="aaa">
+          <h5 className="fe">Fecha 12</h5>
+          <h5 className="fe1">16/07/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">Sampdoria Becerril</h5>
+            <h5 className="ganado">1</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">NAPOLES</h5>
+            <h5>0</h5>
+          </div>
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 11</h5>
+          <h5 className="fe1">07/08/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">FC INTERNACIONAL</h5>
+            <h5 className="ganado">1</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">Sampdoria Becerril</h5>
+            <h5>1</h5>
+          </div>
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 10</h5>
+          <h5 className="fe1">01/07/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">Sampdoria Becerril</h5>
+            <h5 className="ganado">1</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">LOS EMBAJADORES DEL BANCO</h5>
+            <h5>0</h5>
+          </div>
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 9</h5>
+          <h5 className="fe1">06/24/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">CONDOR FC</h5>
+            <h5 className="ganado">0</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">Sampdoria Becerril</h5>
+            <h5>1</h5>
+          </div>
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 8</h5>
+          <h5 className="fe1">06/17/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">Sampdoria Becerril</h5>
+            <h5 className="ganado">1</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">DEPORTIVO J.M.</h5>
+            <h5>3</h5>
+          </div>
+        </div>
+
+        <div className="aaa">
+          <h5 className="fe">Fecha 7</h5>
+          <h5 className="fe1">06/10/2023</h5>
+        </div>
+
+        <div className="equ">
+          <div className="sss">
+            <h5 className="ganado">Sultanes F G.</h5>
+            <h5 className="ganado">1</h5>
+          </div>
+
+          <div className="sss">
+            <h5 className="perdidos">Sampdoria Becerril</h5>
+            <h5>2</h5>
+          </div>
+        </div>
+        <div className="aaa">
           <h5 className="fe">Fecha 6</h5>
           <h5 className="fe1">06/04/2023</h5>
         </div>
-        {/* <hr className="hr" /> */}
 
         <div className="equ">
           <div className="sss">

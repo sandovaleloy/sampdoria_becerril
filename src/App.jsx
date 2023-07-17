@@ -6,6 +6,7 @@ import Partidos from "./components/partidos/Partidos";
 import Main from "./components/main/Main";
 import PaginaPrincipal from "./components/tabla/PaginaPrincipal";
 import Footer from "./components/footer/Footer";
+// import Prueba from "./components/pruebba/Prueba";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/partidos" element={<Partidos />} />
         <Route path="/tabla" element={<PaginaPrincipal />} />
       </Routes>
+        {/* <Prueba/> */}
       <Footer />
     </div>
   );
